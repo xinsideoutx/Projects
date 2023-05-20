@@ -1,0 +1,95 @@
+.heading-primary {
+  text-align: center;
+}
+h4 {
+  font-size: $header-font-size;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: $color-primary-light;
+}
+
+h2 {
+  font-size: $bigger-font-size;
+}
+
+.shop-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, auto));
+  gap: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+
+  & .row {
+    position: relative;
+    padding: 1rem 3rem 4rem;
+    background: $color-primary-dark;
+    border-radius: 6px;
+
+    & img {
+      width: 100%;
+      height: auto;
+      transition: all 0.3s linear;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    & h3 {
+      font-size: $default-font-size;
+      margin-bottom: 5px;
+      font-weight: 700;
+    }
+
+    & p {
+      font-size: $default-font-size;
+      color: $color-secondary-light;
+      line-height: 2.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.center-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inner-price h6 {
+  font-size: $default-font-size;
+  color: $color-white;
+  font-weight: 600;
+}
+
+.cta-btn a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: $color-background;
+  color: $color-primary-light;
+  font-size: $default-font-size;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 1.5rem;
+
+  transition: all 0.4s ease;
+
+  &:hover {
+    background: $color-primary-light;
+    color: $color-background;
+    box-shadow: $color-primary-light 0px 1px 10px;
+    font-weight: 700;
+  }
+}
+
+.box-icon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  scale: (0.5);
+}
+
+.row-btn {
+  text-align: center;
+  margin-top: 5rem;
+}

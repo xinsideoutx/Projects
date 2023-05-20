@@ -1,0 +1,21 @@
+section {
+  padding: 7rem 13% 6rem;
+
+  @include respond-to(tab-land) {
+    padding: 4.5rem 4% 3.8rem;
+    transition: 0.4s;
+  }
+
+  @include respond-to(tab-land) {
+    padding: 4.5rem 4% 4.5rem;
+    transition: 0.4s;
+  }
+  @include respond-to(tab-port) {
+    padding: 4rem 4% 4rem;
+    transition: 0.4s;
+  }
+  @include respond-to(phone) {
+    padding: 3rem 9% 3rem;
+    grid-template-columns: 1fr;
+  }
+}
