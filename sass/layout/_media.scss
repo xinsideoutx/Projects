@@ -31,7 +31,7 @@
 @media (max-width: 870px) {
   .home {
     grid-template-columns: 1fr;
-    height: 120vh;
+    height: 130vh;
 
     &__text {
       padding-top: 6rem;
@@ -58,7 +58,16 @@
     padding: 6rem 8% 6rem;
   }
 
+  .home {
+    grid-template-columns: 1fr;
+    height: 100vh;
+  }
+
   .contact__text p {
     max-width: 100%;
+  }
+
+  .contact__details p {
+    gap: 6rem;
   }
 }
